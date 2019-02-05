@@ -26,33 +26,11 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
- 
+
 </head>
 
 <body id="page-top">
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v3.2'
-    });
-  };
 
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="1574041442894700">
-</div>
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
@@ -179,6 +157,7 @@
       </div>
     </div>
   </section>
+<!------ Include the above in your HEAD tag ---------->
 
   <!--/ Section Services Star /-->
   <section id="service" class="services-mf route">
@@ -679,6 +658,7 @@
                     </h5>
                   </div>
                   <div>
+				  <!----
                       <form action="" method="post" role="form" class="contactForm">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
@@ -712,6 +692,59 @@
                         </div>
                       </div>
                     </form>
+					
+					-->
+					<div class="testimonials paralax-mf " style="padding: 0;">
+   
+					<div class="overlay-mf"></div>
+    
+          <div id="testimonial-mf" class="owl-carousel owl-theme">
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Xavi Alonso</span>
+				<p >
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                </p>
+				<span class="comit"><i class="fa fa-quote-right"></i></span>
+              
+              </div>
+              
+            </div>
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Marta Socrate</span>
+				 <p >
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              
+              </div>
+              
+            </div>
+			
+			<div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Marta Socrate</span>
+				 <p >
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      
+    
+
+					
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -762,7 +795,7 @@
                   Licensing information: https://bootstrapmade.com/license/
                   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
                 -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                <p style="color:#1e6fda;">Theme by <a style="color:#1e6fda;"href="https://bootstrapmade.com/">BootstrapMade</a></p>
               </div>
             </div>
           </div>
